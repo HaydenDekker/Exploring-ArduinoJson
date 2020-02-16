@@ -12,7 +12,7 @@
 using namespace std;
 
 char messageInputArray[100] = "{\"name\":\"test\",\"number\":3}";
-const char* message = "{\"name\":\"test\",\"number\":3  }";
+const char* message = "{\"name\":\"test\",\"number\":3}";
 
 void deserialise(char* testJson, const char* message){
 
