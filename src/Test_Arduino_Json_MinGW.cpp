@@ -48,7 +48,7 @@ int main() {
 	deserialise(messageInputArray, "This will work fine,");
 
 	// functions passes char* so document attempts to write
-	// to the existing memory location of the message input
+	// to the existing memory location of the mes sage input
 	// array
 	deserialise(messageInputArray, "This will fail so the value should be null,");
 
